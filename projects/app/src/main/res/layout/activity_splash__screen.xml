@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Splash_Screen">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="237dp"
+        android:layout_height="244dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/social_media_logo"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="SOCIAL MEDIA INTEGRATION"
+        android:textAllCaps="false"
+        android:textColor="#db0054"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/designed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designed by "
+            android:textColor="#db0054"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pritam Senapati"
+            android:textColor="#db0054"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</RelativeLayout>

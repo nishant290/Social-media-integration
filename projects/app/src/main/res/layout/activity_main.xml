@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="310dp"
+            android:layout_height="47dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/ubuntu"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="The Sparks Foundation"
+            android:textColor="@android:color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tsf" />
+
+        <Button
+            android:id="@+id/fbLogin"
+            android:layout_width="303dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/fb_button"
+            android:drawableLeft="@drawable/fb_logo"
+            android:elevation="12dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Continue With Facebook"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/googleLogin"
+            android:layout_width="303dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/google_button"
+            android:drawableLeft="@drawable/google_logo"
+            android:elevation="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:text="Continue With Google"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
